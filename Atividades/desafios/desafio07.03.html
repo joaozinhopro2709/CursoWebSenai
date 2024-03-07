@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/goat.ico" type="image/x-icon">
+    <title>Sócio Cabra da Peste</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Inscrição</h1>
+    </header>
+
+    <!--Area de cadastro-->
+    <main>
+        <form method="post" action="#">
+            
+            <!--informações pessoais-->
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <!--nome-->
+                <label for="Nome" >Nome</label>
+                <input type="text" name="Nome" placeholder="Digite seu nome" required/>
+
+                <!--data de nascimento-->
+                <label for="Nascimento">Data de Nascimento</label>
+                <input type="date" name="Data" placeholder="dd/mm/aaaa" required>
+
+                <!--telefone-->
+                <label for="Telefone">Telefone</label>
+                <input type="tel" placeholder="(XX) XXXXX-XXXX" required>
+
+                <!--CPF-->
+                <label for="CPF">CPF</label>
+                <input type="number" name="CPF" placeholder="XXX.XXX.XXX-XX" required>
+
+                <!--Email-->
+                <label for="Email">Email</label>
+                <input type="email" name="Email" placeholder="a@a.com" required>
+            </fieldset>
+
+            <!--endereço-->
+            <fieldset>
+                <legend>Endereço</legend>
+
+                <!--endereço-->
+                <label for="Endereço">Endereço</label>
+                <input type="text" name="Endereço" placeholder="digite seu endereço" required>
+
+                <!--cidade-->
+                <label for="Cidade">Cidade</label>
+                <input type="text" name="Cidade" placeholder="digite sua cidade" required>
+
+                <!--estado-->
+                <label for="Estado">Estado</label>
+                
+                <!--estados para selecionar-->
+                <select>
+                    <optgroup label="sul" required>
+                        <option value="Paraná">Paraná</option>
+                        <option value="RioGrandedoSul">Rio Grande do Sul</option>
+                        <option value="Santacatarina">Santa Catarina</option>
+                    </optgroup>  
+                </select>
+            </fieldset>
+
+            <!--Planos para assinar-->
+            <fieldset>
+                <legend>Plano</legend>
+
+                <!--escolhe o plano para assinar-->
+                <label for="planoovelha">Plano Ovelha</label>
+                <input type="radio" name="resposta" checked>
+                <label for="planocabrito">Plano Cabrito</label>
+                <input type="radio" name="resposta" checked>
+                <label for="planobode">Plano Bode</label>
+                <input type="radio" name="resposta" checked>
+                <label for="Planocabradapeste">Plano Cabra da Peste</label>
+                <input type="radio" name="resposta">
+            </fieldset>
+
+            <!--caixa de comentrio-->
+            <fieldset>
+                <legend>Fale sobre sua PAIXÃO pelo CABRITUS</legend>
+                <textarea name="" id="" cols="100" rows="10"></textarea>
+            </fieldset>
+
+            <!--termos do contrato-->
+            <fieldset>
+                <legend>Termos de Contrato</legend>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, cumque harum ipsum rerum, dicta nemo fuga aspernatur obcaecati sapiente delectus qui eius repellat dolor fugit distinctio officiis eligendi nulla Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore neque, dolores hic ducimus animi? Quo voluptates iste, quis totam similique eius quaerat atque consequatur sint quibusdam dolore voluptatibus officii. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sit fuga dignissimos, corporis in aliquam molestias, tempore ullam, expedita illo adipisci esse! Explicabo asperiores numquam neque ullam. Eius, officia dolore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sunt necessitatibus, hic officia sed cum iusto dolor omnis quasi vero, beatae optio numquam nostrum quo accusamus deserunt enim consectetur maxime.
+                </P> 
+
+                <!--concordar com os termos e se quer receber noticias-->
+                <input type="checkbox" name="termos" >
+                <label for="termos">Aceito termos de contato</label>
+                <input type="checkbox" name="noticias">
+                <label for="noticias">Aceito receber noticias</label>
+            </fieldset>
+            <br>
+            <!--enviar dados registrados-->
+            <button>Enviar dados</button>
+        </form>
+            <br>
+            <a href="desafio07.02.html"><button>Voltar</button></a>
+        </main>
+
+        <!--roda pé-->
+    <footer Align="center">
+        <p>Copyrigth 2024 &copy; - Tec.Multimidia</p>
+        <p>Santa Cruz do Rio Pardo-SP</p>
+    </footer>
+</body>
+</html>
