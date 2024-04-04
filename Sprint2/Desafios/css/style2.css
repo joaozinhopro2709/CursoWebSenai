@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     background-color: rgb(230, 230, 230);
+    margin: 10px;
 }
 h1{
     text-align: center;
@@ -23,13 +24,16 @@ li{
 .imagem{
     text-align: center;
 }
-table{
+.horario-de-funcionamento{
     width: 100%;
-    border-collapse: collapse;
+    border: none;
 }
-tr{
+th{
+    padding: 10px;
+    background-color: rgb(57, 113, 0);
+}
+td{
     border: 1px solid;
+    padding: 5px;
 }
-.funcionamento{
-    border: 5px solid;
-}
+
