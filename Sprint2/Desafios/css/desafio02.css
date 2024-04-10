@@ -1,0 +1,38 @@
+body{
+    background-color: greenyellow;
+    margin: 0px;
+}
+a{
+    color: black;
+}
+hr{
+    background-color: green;
+    height: 15px;
+}
+footer{
+    font-size: small;
+    text-align: center;
+    font-style: italic;
+}
+.navegação{ 
+    border-right: 2px solid;
+    border-color: black;
+    font-family: sans-serif;
+}
+.logo{
+    text-align: center;
+    margin: auto;
+    height: 350px;
+}
+.div1{
+    text-align: center;
+    background-color: green;
+    font-family: sans-serif;
+}
+.div2{
+    font-family: sans-serif;
+    column-count: 3;
+    text-align: justify;
+    padding: 0;
+}
+
