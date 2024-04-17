@@ -16,13 +16,12 @@ body {
 }
 footer>p {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: unset;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
 }
-.div3 {
+.prin {
     background-color: white;
     border-radius: 10px;
-
 }
 
 .logo {
@@ -55,21 +54,24 @@ footer>p {
 .img1 {
     float: left;
     padding: 10px;
+    width: 30%;
 }
-
-.div2 {
-    border-top: 2px solid;
-    border-bottom: 2px solid;
-    border-color: grey;
-    margin: 10px;
-    float: left;
-}
-
 .clear {
     clear: both;
 }
 .img2 {
-    padding: 10px;
-    width: 30%;
-    height: 350px;
+   width: 350px;
+   height: 300px;
+     
+}
+.img-legenda{
+    float: left;
+    text-align: center;
+    margin: 30px;
+}
+.borda{
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: goldenrod;
+    margin: 10px;
 }
