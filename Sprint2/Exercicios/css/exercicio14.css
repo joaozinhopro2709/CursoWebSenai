@@ -1,0 +1,15 @@
+#fundo{
+    background-color: rgb(83, 23, 139);
+}
+#conteiner{
+    background-color: white;
+    margin: 20px auto;
+    width: 750px;
+    padding: 10px;
+}
+.posição{
+    border: solid green 3px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
