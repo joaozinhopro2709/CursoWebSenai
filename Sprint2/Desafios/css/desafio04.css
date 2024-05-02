@@ -1,0 +1,50 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    background-color: bisque;
+    border-top: solid rgb(56, 28, 28) 40px;
+}
+.float{
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+.menu{
+    background-color: rgb(56, 28, 28);
+    width: 100%;
+    height: 40px;
+}
+.menu ul{
+    padding: 0;
+    max-width: 550px;
+}
+.menu ul li{
+    background-color: rgb(56, 28, 28);
+    color: white;
+    float: left;
+    width: 100px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+.menu ul li:hover {
+    background-color: bisque;
+}
+.menu ul ul {
+    display: none;
+}
+.menu ul li:hover>ul {
+    display: block;
+}
+.menu ul ul ul {
+    margin-left: 102px;
+    position: absolute;
+    top: 0px;
+}

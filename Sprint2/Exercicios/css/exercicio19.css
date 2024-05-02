@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+    background-color: rgb(160, 156, 156);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#conteiner {
+    width: 93%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: solid red 3px;
+}
+
+.cabe {
+    border: solid rgb(98, 0, 255) 2px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.menu {
+    border: solid rgb(255, 0, 162) 2px;
+    width: 18%;
+    float: left;
+    height: 400px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    text-indent: 20px;
+    list-style: none;
+    height: 50px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+}
+
+.menu ul li:hover {
+    background-color: grey;
+}
+
+.conteudo {
+    border: solid rgb(0, 255, 17) 2px;
+    width: 80%;
+    float: right;
+}
+
+.cont_01 {
+    border: solid rgb(162, 227, 160) 1px;
+    width: 58%;
+    float: left;
+}
+
+.conteudo p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.cont_02 {
+    border: solid rgb(5, 57, 14) 1px;
+    width: 40%;
+    float: right;
+}
+
+.roda {
+    border: solid rgb(179, 55, 17) 2px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.clear {
+    clear: both;
+}

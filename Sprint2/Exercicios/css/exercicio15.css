@@ -67,7 +67,7 @@ a:hover{
 .menu ul li{
     text-align: center;
     background-color: black;
-    width: 170px;
+    width: 200px;
     height: 40px;
     float: left;
     display: inline;
@@ -86,7 +86,7 @@ a:hover{
     display: block;
 }
 .menu ul ul ul{
-    margin-left: 150px;
+    margin-left: 200px;
     position: absolute;
     top: 0px;
 }
