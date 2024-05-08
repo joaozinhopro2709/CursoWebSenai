@@ -1,0 +1,68 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom, purple, dodgerblue);
+}
+
+#principal{
+    width: 40%;
+    height: 300px;
+    background-color: rgba(102, 111, 120, 0.5);
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    border-radius: 15px;
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+}
+
+#principal img{
+    width: 120px;
+    margin-top:  -60px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left: 50px;
+    border: none;
+}
+
+input.email{
+    background-image: url(../html/img/do-utilizador.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 10px;
+}
+
+input.senha{
+    background-image: url(../html/img/cadeado-seguro.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 10px;
+}
+
+input.submit{
+    color: white;
+    background-color: dodgerblue;
+    border: 2px solid white;
+    padding: 5px 20px;
+    height: 35px;
+    width: 25%;
+    border-radius: 5px;
+}
+
+input.submit:hover{
+    background-color: blue;
+    width: 24%;
+}

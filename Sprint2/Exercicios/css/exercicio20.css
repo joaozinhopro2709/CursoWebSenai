@@ -1,0 +1,31 @@
+
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    border-collapse: collapse;
+}
+th, td, caption{
+    padding: 10px;
+}
+th, caption{
+    text-transform: uppercase;
+    border-top: 2px solid black;
+    border-bottom: 1px solid green;
+}
+th{
+    text-align: left;
+}
+caption{
+    font-size: 1.5em;
+    letter-spacing: 1.1em;
+    font-weight: 900;
+}
+tr.alternado{
+    background-color: rgb(232, 230, 230);
+}
+tr:hover{
+    background-color: yellowgreen;
+}
+.numero{
+    text-align: right;
+}
