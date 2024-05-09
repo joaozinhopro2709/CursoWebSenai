@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.cabe{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+input{
+    width: 20%;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: solid black;
+    border-radius: 10px;
+    background-image: url();
+    background-size: 10%;
+    background-position: top 5px right 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+}
+.logo{
+    float: left;
+    text-indent: 20px;
+    width: 20%;
+}
+.cabe ul{
+    float: left;
+    width: 50%;
+    margin: 0px 0px 0px 20px;
+    line-height: 100px;
+    text-align: center;
+}
+.cabe ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    color: rgb(13, 66, 13);
+    font-family: 'Finger Paint', cursive;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.cabe ul li:hover{
+    color: rgb(25, 121, 25);
+}
+.box1, .box2, .box3, .box4{
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box1{
+    background-image: url();
+}
+.box2{
+    background-image: url();
+}
+.box3{
+    background-image: url();
+}
+.box4{
+    background-image: url();
+}
+.cont-img{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+.cont-img span.titulo{
+    background-color: rgb(13, 66, 13);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.conteudo{
+    background-color: white;
+    color:rgb(13, 66, 13);
+    text-align: justify;
+    padding: 50px 100px 40px 100px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    text-transform: uppercase;
+    color: rgb(13, 66, 13);
+    text-align: center;
+}
+.roda{
+    margin-top: -20px;
+    height: 330px;
+    background-color: white;
+}
+
+.roda .down_top{
+    text-align: center;
+    color: rgb(13, 66, 13);
+    font-family: 'Finger Paint', cursive;
+    font-size: 4em;
+}
+
+.roda .down_meio{
+    text-align: center;
+    color: rgb(13, 66, 13);
+    font-family: 'Finger Paint', cursive;
+    font-size: 1.5em;
+    text-align: center;
+}
+.roda .down_down{
+    text-align: center;
+}
+.roda .doen_down img{
+    width: 40px;
+    border-radius: 25px;
+    border: 4px rgb(13, 66, 13) dotted;
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px;
+}
