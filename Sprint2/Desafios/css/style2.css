@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+}
+ul{
+    color: aliceblue;
+    list-style-type: none;
+    padding-left: 0;
+}
+li{    
+    background-color: rgb(2, 130, 204);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.imagem{
+    align-items: center;
+}
+.titulo-tabela{
+    color: aliceblue;
+    background-color: rgb(16, 170, 119);
+}
