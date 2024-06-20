@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseInt(prompt('Digite o valor de A: '));
+        var b = parseInt(prompt('Digite o valor de B: '));
+        var c = parseInt(prompt('Digite o valor de C: '));
+
+        var delta = (b ** 2) - (4 * a * c);
+        var rA = (b*-1) + ((Mathsqrt(delta)) / (2 * a));
+        var rB = (b*-1) - ((Mathsqrt(delta)) / (2 * a));
+
+        if (delta < 0) {
+            document.write('Não é possivel calcular');
+        }
+        else if (a == 0) {
+            document.write('Não é possivel calcular');
+        }
+        else {
+            document.write('os valores das raizes da equação são: ' + rA + ' e ' + rB);
+        }
+    </script>
+</body>
+
+</html>

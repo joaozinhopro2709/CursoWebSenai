@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var dia = prompt('digite a quantidade de dias que voce quer saber que um mes tem: ')
+
+        switch (dia){
+            case '28':
+                document.write('FEVEREIRO')
+                break
+            case '30':
+                document.write('ABRIL, JUNHO, SETEMBRO e NOVEMBRO')
+                break
+            case '31':
+                document.write('JANEIRO, MARÇO, MAIO, JULHO, AGOSTO, OUTUBRO e DEZEMBRO')
+                break
+            default:
+                document.write('VALOR INVÁLIDO!')
+        }
+    </script>
+</body>
+</html>
